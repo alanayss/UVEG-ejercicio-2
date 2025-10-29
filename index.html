@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registro de la persona usuaria</h1>
+
+    <form class="formulario">
+    <label for="nombre">Nombre(s):</label>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="apellido">Apellidos:</label>
+    <input type="text" id="apellido" name="apellido"><br><br>
+
+    <label for="correo">El email:</label>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" id="contraseña" name="contraseña"><br><br>
+
+    <label for="descripcion">Descripción:</label><br>
+    <textarea id="descripcion" name="descripcion" placeholder="Escribe algo tuyo"></textarea><br><br>
+
+    <p>Selecciona tus intereses:</p>
+    <input type="checkbox" id="tecnologia" name="intereses" value="tecnologia">
+    <label for="tecnologia">Tecnología</label><br>
+
+    <input type="checkbox" id="arte" name="intereses" value="arte">
+    <label for="arte">Arte</label><br>
+
+    <input type="checkbox" id="books" name="intereses" value="books">
+    <label for="books">Libros</label><br><br>
+
+    <button type="submit" id="boton-submit">Registrarse</button>
+  </form>
+</body>
+</html>

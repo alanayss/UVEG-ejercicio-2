@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  color: #5f189d;
+  background-color: rgb(227, 215, 250);
+}
+
+.form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid #999;
+  padding: 5px;
+  font-size: 14px;
+}
+
+#boton-submit {
+  background-color: #2442b0;
+  color: white;
+  border: 1px solid #3e8e41;
+  padding: 8px;
+  cursor: pointer;
+}
